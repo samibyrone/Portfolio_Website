@@ -1,5 +1,5 @@
 import React from "react";
-import MyImage from "../../assets/images/profile.png";
+import MyImage from "../../assets/images/page.png";
 
 export const Layout = () => {
   return (
