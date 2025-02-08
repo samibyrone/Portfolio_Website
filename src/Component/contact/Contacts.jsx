@@ -5,7 +5,7 @@ export const Contacts = () => {
   return (
     <div className='bg-black text-white py-20' id='contact'>
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
-            <h2 className='text-4xl font-bold text-center mb:12'>Contact me</h2>
+            <h2 className='text-4xl font-bold text-center mb:12'>Contact Me</h2>
             <div className='flex flex-col md:flex-row items-center md:space-x-2'>
                 <div className='flex-1 text-start'>
                     <h3 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-4'>
@@ -33,11 +33,11 @@ export const Contacts = () => {
                         <span>Street, city, province, country</span>
                     </div>
                 </div>
-                <div className='flex-1 w-full mt-20 text-start'>
+                <div className='flex-1 w-full mt-15 text-start'>
                     <form className='space-y-4'>
                         <div>
                             <label htmlFor='name' className='block mb-2'>
-                                Your Name
+                                Name
                             </label>
                             <input
                                 type='text'

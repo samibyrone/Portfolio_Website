@@ -4,9 +4,9 @@ export const Navbar = () => {
   return (
     <>
       <nav className='bg-black text-white px-8 pt-6 md:px-16 lg:px-24'>
-        <div className='py-2 flex md:justify-between items-center'>
+        <div className='container py-2 flex justify-center md:justify-between items-center'>
           <div className='text-4xl font-bold hidden md:inline'>Samibyrone</div>
-          <div className='space-x-10 font-bold text-2xl'>
+          <div className='space-x-10 font-bold'>
             <a href='#home' className='hover:text-gray-400'>
               Home
             </a>
