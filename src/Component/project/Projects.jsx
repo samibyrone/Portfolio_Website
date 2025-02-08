@@ -1,5 +1,5 @@
 import React from "react";
-import empleyeeImage from "../../assets/images/icon.png";
+import employeeImage from "../../assets/images/icon.png";
 import booksImage from "../../assets/images/page.png";
 
 const projects = [
@@ -21,11 +21,25 @@ const projects = [
     id: 3,
     name: "Employee MS",
     technologies: "MERN Stack",
-    image: empleyeeImage,
+    image: employeeImage,
     github: "https://github.com/samibyrone"
   },
   {
     id: 4,
+    name: "Blog App",
+    technologies: "MERN Stack",
+    image: booksImage,
+    github: "https://github.com/samibyrone"
+  },
+  {
+    id: 5,
+    name: "Employee MS",
+    technologies: "MERN Stack",
+    image: employeeImage,
+    github: "https://github.com/samibyrone"
+  },
+  {
+    id: 6,
     name: "Blog App",
     technologies: "MERN Stack",
     image: booksImage,
@@ -37,8 +51,8 @@ export const Projects = () => {
   return (
     <div>
       <div className='bg-black text-white py-20' id='project'>
-        <div className='container mx:auto px-8 md:px-16 lg:px-24'>
-          <h2 className='text-4x1 font-bold text-center mb:12'>My Projects</h2>
+        <div className='container mx-auto px-8 md:px-16 lg:px-24'>
+          <h2 className='text-4xl font-bold text-center mt-20 mb-12'>My Projects</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {projects.map((project) => (
               <div
