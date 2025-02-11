@@ -19,8 +19,8 @@ const projects = [
   },
   {
     id: 3,
-    name: "Employee MS",
-    technologies: "MERN Stack",
+    name: "Eccomerce App",
+    technologies: "React",
     image: employeeImage,
     github: "https://github.com/samibyrone"
   },
